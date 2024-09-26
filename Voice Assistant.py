@@ -74,6 +74,7 @@ if __name__ == '__main__':
             query = query.replace("wikipedia", '')
             results = wikipedia.summary(query, sentences=2)
             speak("According to wikipedia")
+            print(results)
             speak(results)
         elif 'are you' in query:
             speak("I AM YOUR FATHER")
@@ -110,6 +111,7 @@ if __name__ == '__main__':
             speak(joke)
         elif 'time' in query:
             current_time = datetime.datetime.now().strftime("%H:%M:%S")
+            print(current_time)
             speak(f"The time is {current_time}")
         elif 'take a screenshot' in query:
             screenshot = pyautogui.screenshot()
