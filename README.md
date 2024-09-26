@@ -20,7 +20,7 @@ This Python project is a voice assistant capable of performing various tasks suc
 You need to have Python installed on your system. Then install the required libraries:
 
 ```bash
-pip install pyttsx3 SpeechRecognition wikipedia pyjokes pyautogui requests
+pip install -r requirements.txt
 ```
 # Usage
 ### Clone this repository:
